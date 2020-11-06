@@ -76,6 +76,7 @@ BERTopic (BERT Topic Modelling)
 ### Aggregation and Normalization (Under discussion)
 
 Example:
+
 |   | Product A1   | Product A2  |
 |---|---|---|
 |  Aspect 1 | 0.8  | 0.9  |
