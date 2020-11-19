@@ -1,0 +1,152 @@
+....
+<img src="guide-logo.png" width=400 />
+....
+
+== Project: J2 Instance
+
+https://j2ledflashlight.com/[J2 LED Flashlight] is a trusted expert and
+authorized seller of premium LED light products and accessories.
+
+Guide Analytics is a company that powers a
+https://guideanalytics.ca/[market Intelligence platform] and will be
+testing its feature releases for Amazon data scraping, aspect-based
+sentiment analysis and custom visual components based on J2’s requested
+flashlight product reviews & metadata.
+
+[cols="<,<",options="header",]
+|===
+|Project |Specifics
+|Title |J2 Instance
+
+|Release |1.0
+
+|Stakeholder |John Jang (Founder J2 LED)
+
+|Product Owner |Anshuk Chhibber (CEO Guide Analytics)
+
+|Resources
+|https://gitlab.com/gide-analytics/author-analysis/absa[Gitlab],
+https://app.slack.com/client/TUNMD5SE4/C01CQLJ3CH5[Slack],
+https://drive.google.com/drive/folders/1EKJUS72Om-94t81gC6N9f-vroB7Yk9d-[Drive]
+
+|Designer |Kaan Karakuzu
+
+|Developers |Raj Patel, Bo Na, Rishabh Karwayun, Kush Thaker
+
+|Support |Michael Brock Li
+|===
+
+== Profile: J2 LED Flashlight
+
+_``J2'' got their name from the first initials of their founders, John
+and Jim. As brothers, the company was founded in Toronto, Ontario,
+Canada in 2004. Our very first product was the Nuwai TM303x which turned
+out to be a ``hot seller'' amongst flashlight enthusiasts. Small, bright
+and compact, gadget lovers fell in love with this awesome, tactical
+flashlight as we all became ``flashaholics'' (in a good way of course)._
+
+From J2’s Google Reviews, this store is seen by enthusiasts as highly
+knowledgeable, with vast selection, and strong customer service.
+
+....
+<img src="j2-team.jpg" width=600 />
+....
+
+....
+<img src="j2-website.png" width=600 />
+....
+
+....
+<img src="j2-audience.png" width=600 />
+....
+
+== Business Objective, Strategic Fit
+
+* Our goal is to demonstrate Guide Analytics product capability to J2
+and further understand their business needs. +
+* Last engagement was `2020-11-05`, meeting notes recorded
+https://guideanalytics.slack.com/archives/CUTJZDEFN/p1604619210005600[here].
+
+Given J2 has a large product catalogue, they could benefit from
+comparisons of product specifications, aspect-based sentiment summaries
+of product reviews, and using our data on top of existing sales and
+inventory records to drive growth.
+
+*Advertising Strategy*
+
+* How might our tools inform their advertising strategy? How does our
+aggregate data drive decisions to change J2’s website, promotions,
+creative copy, target segments, a/b experiments? How might J2 can
+increase their brand awareness and sales?
+
+They are working with https://digitalmainstreet.ca/[Digital Main Street]
+and we would like to listen in and explore further.
+
+* We want to get the learnings from quality reviews that would help J2
+sell products to consumer for everyday carry, hunting, camping use
+cases, as well as get contracts with camp sites, business military and
+law enforcement.
+
+'''''
+
+== 1.0 User Stories
+
+=== User sees aspect-sentiment heatmap by brand, price and size …
+
+… so that they understand how customers feel.
+
+....
+<img src="j2-heatmap-brand.png" width=600 />
+....
+
+....
+<img src="j2-heatmap-price.png" width=600 />
+....
+
+....
+<img src="j2-heatmap-size.png" width=600 />
+....
+
+'''''
+
+== 2.0 User Stories
+
+=== User sees opinion words associated with given aspect nouns …
+
+… so that they understand how customers feel.
+
+....
+<img src="j2-wordcloud.png" width=600 />
+....
+
+'''''
+
+== 3.0 User Stories
+
+=== User can add amazon product links in-app …
+
+… so that they can see visuals / comparisons for selected groups of
+products.
+
+* Create named group of URLs
+* Delete named group
+* Add URL to list
+* Remove URL from list
+
+Today this is done via shared spreadsheet and scraping script is run
+manually. See flashlight
+https://docs.google.com/spreadsheets/d/1piu_VKuEPoSC_L5S1Itb0ik0FqEOcZLwxkwk4pARBXw/edit#gid=770576276[spreadsheet].
+
+=== User can select link groups & XY axes to generate scatter plots …
+
+… so that they can visuals / comparisons for selected groups of
+products.
+
+'''''
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
