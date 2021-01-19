@@ -20,7 +20,7 @@ Thus, it becomes important to identify the aspects of the product/service that a
 
 Firstly, all the data files would be read and aspects would be extracted from reviews using POS tagging. Specifically words tagged NOUN are considered as aspects. The reason behind considering only them is that a noun is a word that functions as the name of some specific thing or set of things. So, we will get the relevant words based on the domain from the NOUN. Apart from this, a *corpus.txt* also acts as a source for the same. Currently, these aspects are manually defined.
 
-After this, for each review, it analyses the aspect sentiment based on adjectives. Initially, a opinion list is formed by all the words in *pos.txt* and *neg.txt*. Then, for each token in the sentence, we consider only those tokens which are a part of the above token list. For these tokens, we check for tokens with syntactic dependency with this token. Based on the POS that these 'children' belong to (example Verb, Adjective, Conjigation), appropriately sentiment is assigned (please refer code for specific details).
+After this, for each review, it analyses the aspect sentiment based on adjectives. Initially, a opinion list is formed by all the words in *pos.txt* and *neg.txt*. Then, for each token in the sentence, we consider only those tokens which are a part of the above token list. For these tokens, we check for tokens with syntactic dependency with this token. Based on the POS that these 'children' belong to (example Verb, Adjective, Conjugation), appropriately sentiment is assigned (please refer code for specific details).
 
 A dictionary object is created for each review, with key as the aspect and value as the sentiment for that particular aspect.
 
