@@ -8,6 +8,7 @@ Folder Contents:
 1) *asba_ruleBased.ipynb* contains the main code.
 2) *corpus.txt* contains the corpus of aspects. Currently, they are manually defined.
 3) *pos.txt* and *neg.txt* contain positive and negative sentiment list.
+4) *absa_aggregation.ipynb* aggregates results post sentiment analysis.
 
 
 ## Introduction
@@ -32,17 +33,18 @@ A dictionary object is created for each review, with key as the aspect and value
 2) The notebook will automatically perform the extraction. After extraction, the input data in the form of csv's will be present. <br>
 3) The notebook will automatically create the output and zip it in 'output.zip'. <br>
 4) In case of any changes to the format in which data is stored, changes need to be made in sections 1 and 4 accordingly.
+5) *absa_aggregation.ipynb* will aggregate the data per csv. Hence, CSV name needs to be accordingly modified in cell #2.
 
 ## Sample Output
 *predictions.csv* contains a sample output for this approach.
 
 ## More Information
 
-Spacy Documentation: https://spacy.io/api/token <br>
-POS Tagging: https://blog.thaker.ca/linguistics-cheatsheet/ <br>
-Medium Article for this approach: https://medium.com/@Intellica.AI/aspect-based-sentiment-analysis-everything-you-wanted-to-know-1be41572e238 <br>
-*pos.txt* source: https://gist.github.com/mkulakowski2/4289437 <br>
-*neg.txt* source: https://gist.github.com/mkulakowski2/4289441
+[Spacy Documentation](https://spacy.io/api/token). <br>
+[POS Tagging](https://blog.thaker.ca/linguistics-cheatsheet/). <br>
+[Medium Article for this approach](https://medium.com/@Intellica.AI/aspect-based-sentiment-analysis-everything-you-wanted-to-know-1be41572e238). <br>
+*pos.txt* [source](https://gist.github.com/mkulakowski2/4289437). <br>
+*neg.txt* [source](https://gist.github.com/mkulakowski2/4289441).
 
 ## Author
-Rishabh Karwayun
+Rishabh Karwayun.
